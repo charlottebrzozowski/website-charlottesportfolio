@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte's Profile</title>
+    
+    <!-- Materialize CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Reset Materialize's defaults to avoid any red/pink or blue color */
+        .navbar, .footer, nav, .btn, .card-panel {
+            background-color: transparent !important;
+            color: inherit !important;
+        }
+
+        body {
+            font-family: 'Playfair Display', serif;
+            background-color: #F2E9E4; /* Light beige background */
+            color: #22223B; /* Dark blue text */
+            margin: 0;
+            padding: 0;
+        }
+        .profile-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #4A4E69; /* Muted lavender border */
+        }
+        .card-panel {
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #FFFFFF;
+        }
+        .btn {
+            border-radius: 8px;
+            font-size: 1.1em;
+            background-color: #9A8C98; /* Soft lavender button */
+        }
+        .btn:hover {
+            background-color: #C9ADA7; /* Light lavender on hover */
+        }
+        .nav-wrapper {
+            padding: 0 20px;
+            background-color: #9A8C98; /* Soft lavender background */
+        }
+        .brand-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #F2E9E4; /* Light beige text */
+        }
+        footer {
+            background-color: transparent !important; /* Remove background */
+            color: #22223B; /* Dark text instead of light beige or blue */
+            padding: 20px 0;
+            text-align: center;
+        }
+        .video-container iframe {
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            background-color: transparent !important; /* Remove background */
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #22223B; /* Dark text instead of blue */
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 15px;
+        }
+        nav ul li a:hover {
+            background-color: #C9ADA7; /* Light lavender on hover */
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo center">Let's Connect</a>
+        </div>
+    </nav>
+    
+    <!-- Profile Section -->
+    <div class="container center-align" style="margin-top: 40px;">
+        <img src="https://imgur.com/KENTBko.png" alt="Charlotte's Profile Picture" class="profile-img">
+        <h5><a href="https://www.linkedin.com/in/charlotte-brzozowski" class="waves-effect waves-light btn">View My LinkedIn</a></h5>
+    </div>
+    
+    <!-- Intro Section -->
+    <div class="container">
+        <div class="card-panel">
+            <h4 class="center-align">Get to know me a little more...</h4>
+            <p class="flow-text">Welcome to my page! Here, you’ll find a little more about my passions, experiences, and interests. Let’s connect!</p>
+        </div>
+    </div>
+    
+    <!-- Embedded YouTube Video -->
+    <div class="container center-align">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/157EmSjgpr8" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    <!-- Materialize Buttons -->
+    <div class="container center-align" style="margin-top: 20px;">
+        <a href="#" class="waves-effect waves-light btn">Connect</a>
+        <a href="#" class="waves-effect waves-light btn-large">Learn More</a>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <p class="white-text">© 2025 Charlotte Brzozowski | All Rights Reserved</p>
+        </div>
+    </footer>
+    
+    <!-- Materialize JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
